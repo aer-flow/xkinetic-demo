@@ -1,0 +1,23 @@
+{
+  "brand_tagline": "Cabinet de Kinetoterapie & Recuperare Medicală",
+  "city": "Cluj-Napoca",
+  "site_url": "https://xkinetic-demo.vercel.app/",
+  "existing_website": "",
+  "has_existing_website": "nu",
+  "phone_display": "0763 988 801",
+  "email": "contact@xkinetic.ro",
+  "address": "Str. Porțile de Fier 4, Cluj-Napoca",
+  "instagram_url": "#",
+  "facebook_url": "",
+  "linkedin_url": "#",
+  "copyright_year": "2026",
+  "team_intro": "Echipă specializată în kinetoterapie, masaj terapeutic și fitness terapeutic. Oferim și terapii personalizate la domiciliu — recuperezi fără să te deplasezi.",
+  "schedule_html": "<dl>\n              <dt>Luni – Vineri</dt><dd>9:00 – 19:00</dd>\n              <dt>Sâmbătă</dt><dd>Doar cu programare</dd>\n              <dt>Duminică</dt><dd>Închis</dd>\n            </dl>",
+  "brand_name": "xKinetic",
+  "logo_path": "img/brand-logo.png",
+  "preview_image_path": "img/brand-preview.png",
+  "phone_link": "0763988801",
+  "whatsapp_number": "0763988801",
+  "map_embed_url": "https://www.google.com/maps?q=Str.%20Por%C8%9Bile%20de%20Fier%204%2C%20Cluj-Napoca&output=embed",
+  "og_image_url": "https://xkinetic-demo.vercel.app/img/brand-preview.png"
+}

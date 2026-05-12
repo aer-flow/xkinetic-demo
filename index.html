@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>xKinetic — Cabinet de Kinetoterapie & Recuperare Medicală în Cluj-Napoca</title>
+  <meta name="description" content="xKinetic — kinetoterapie și recuperare medicală în Cluj-Napoca. Sesiuni 1-on-1, planuri personalizate și programare online cu calendar real.">
+
+  <meta property="og:title" content="xKinetic — Cabinet de Kinetoterapie & Recuperare Medicală">
+  <meta property="og:description" content="Kinetoterapie și recuperare medicală în Cluj-Napoca. Sesiuni 1-on-1, planuri personalizate, programare online.">
+  <meta property="og:url" content="https://xkinetic-demo.vercel.app/">
+  <meta property="og:image" content="https://xkinetic-demo.vercel.app/img/brand-preview.png">
+  <meta property="og:type" content="website">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://xkinetic-demo.vercel.app/">
+  <meta property="twitter:title" content="xKinetic — Cabinet de Kinetoterapie & Recuperare Medicală">
+  <meta property="twitter:description" content="Kinetoterapie și recuperare medicală în Cluj-Napoca.">
+  <meta property="twitter:image" content="https://xkinetic-demo.vercel.app/img/brand-preview.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PhysicalTherapy",
+    "name": "xKinetic",
+    "image": "https://xkinetic-demo.vercel.app/img/brand-preview.png",
+    "url": "https://xkinetic-demo.vercel.app/",
+    "telephone": "0763 988 801",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Str. Porțile de Fier 4, Cluj-Napoca",
+      "addressLocality": "Cluj-Napoca",
+      "addressCountry": "RO"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css?v=3.0.0">
+  <link rel="stylesheet" href="rekineto-sections.css?v=1.0.0">
+  <link rel="icon" href="img/brand-logo.png">
+  <link rel="apple-touch-icon" href="img/brand-logo.png">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header">
+    <a href="#" class="logo">
+      <img src="img/brand-logo.png" alt="Logo xKinetic">
+    </a>
+    <nav class="site-nav">
+      <a href="#despre">Despre</a>
+      <a href="#procesul">Procesul</a>
+      <a href="#tratam">Ce tratăm</a>
+      <a href="#servicii">Servicii</a>
+      <a href="#echipa">Echipa</a>
+      <a href="tarife.html">Tarife</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:0763988801" class="btn btn-ghost"><i class="fa-solid fa-phone"></i></a>
+      <a href="#programare" class="btn btn-primary">Programare</a>
+    </div>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Deschide meniul">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="img/hero-main.jpg" alt="Sesiune de kinetoterapie">
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-eyebrow">Centru de Kinetoterapie · Cluj-Napoca</span>
+        <h1>Recuperarea ta<br><em>începe cu mișcare</em></h1>
+        <p class="hero-desc">Planuri personalizate, sesiuni 1-on-1 și o echipă care te ascultă. Te ajutăm să te miști mai bine, fără durere și fără compromisuri.</p>
+        <div class="hero-cta">
+          <a href="#programare" class="btn btn-primary btn-lg">Programează o evaluare</a>
+          <a href="#servicii" class="btn btn-ghost-light">Descoperă serviciile</a>
+        </div>
+        <div class="trust-strip">
+          <div class="trust-item">
+            <span class="trust-num">3.500+</span>
+            <span class="trust-label">Pacienți<br>tratați</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-num">10+</span>
+            <span class="trust-label">Ani de<br>experiență</span>
+          </div>
+          <div class="trust-item">
+            <div>
+              <span class="trust-stars">★★★★★</span>
+              <div><span class="trust-num" style="font-size: 1.2rem;">4.9</span> <span class="trust-label" style="display: inline;">din 5 · Google</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="procesul">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Procesul</span>
+        <h2>4 pași simpli până la recuperare</h2>
+        <p>Lucrăm transparent — știi de la început ce urmează la fiecare etapă.</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-card reveal">
+          <div class="process-icon"><i class="fa-solid fa-calendar-check"></i></div>
+          <h3>Programezi</h3>
+          <p>Alegi serviciul, ziua și ora prin sistem online. Vezi instant detaliile programării.</p>
+        </div>
+        <div class="process-card reveal delay-1">
+          <div class="process-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+          <h3>Evaluăm</h3>
+          <p>Anamneză completă, evaluare biomecanică și discuție despre obiectivele tale.</p>
+        </div>
+        <div class="process-card reveal delay-2">
+          <div class="process-icon"><i class="fa-solid fa-route"></i></div>
+          <h3>Plan personalizat</h3>
+          <p>Primești un plan personalizat, cu exerciții și obiective adaptate evaluării tale.</p>
+        </div>
+        <div class="process-card reveal delay-3">
+          <div class="process-icon"><i class="fa-solid fa-person-walking"></i></div>
+          <h3>Te miști liber</h3>
+          <p>Sesiuni 1-on-1 cu măsurători de progres. Ne ajustăm după evoluție.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE TREAT -->
+  <section class="rk-section" id="tratam">
+    <div class="rk-inner">
+      <div class="rk-head reveal">
+        <div>
+          <div class="rk-eyebrow">Ce tratăm</div>
+          <h2>Pentru fiecare <em>zonă</em> a corpului</h2>
+        </div>
+        <div class="rk-head-right">Alege o zonă și vezi afecțiunile tratate, durata medie și formatul ședințelor.</div>
+      </div>
+      <div class="c1-wrap reveal" data-treat-section>
+        <div class="c1-figure">
+          <img class="c1-photo" src="img/treat-patient-map.jpg" alt="Pacient în studio de kinetoterapie">
+          <button type="button" class="hot" style="top:21%;left:50%" data-zone="0" aria-label="Gât"></button>
+          <button type="button" class="hot" style="top:27%;left:37%" data-zone="1" aria-label="Umăr"></button>
+          <button type="button" class="hot is-active" style="top:47%;left:50%" data-zone="2" aria-label="Spate"></button>
+          <button type="button" class="hot" style="top:72%;left:57%" data-zone="3" aria-label="Genunchi"></button>
+          <button type="button" class="hot" style="top:88%;left:59%" data-zone="4" aria-label="Gleznă"></button>
+          <button type="button" class="hot" style="top:9%;left:50%" data-zone="5" aria-label="Sistem neurologic"></button>
+        </div>
+        <div class="c1-side">
+          <div class="index" data-zone-index>Zona 3 · Toracic + Lombar</div>
+          <h3><span data-zone-name>Spate</span> <em data-zone-italic>&amp; Coloană</em></h3>
+          <div class="lede" data-zone-lede>Lombalgie, hernie de disc, sciatică, scolioză, spondiloză. Plan personalizat pe baza evaluării biomecanice, cu obiective măsurabile la fiecare etapă.</div>
+          <div class="cond">
+            <div><span class="lbl">Afecțiuni</span><span data-zone-conds>Lombalgie, hernie de disc, sciatică, scolioză, spondiloză</span></div>
+            <div><span class="lbl">Durată</span><span>8-16 ședințe în medie</span></div>
+            <div><span class="lbl">Format</span><span>1-on-1, 45-50 min, ajustat săptămânal</span></div>
+          </div>
+          <div class="mini-nav">
+            <button type="button" data-zone="0">1 · Gât</button>
+            <button type="button" data-zone="1">2 · Umăr</button>
+            <button type="button" class="is-active" data-zone="2">3 · Spate</button>
+            <button type="button" data-zone="3">4 · Genunchi</button>
+            <button type="button" data-zone="4">5 · Gleznă</button>
+            <button type="button" data-zone="5">6 · Sistem</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="rk-section cream" id="servicii">
+    <div class="rk-inner">
+      <div class="rk-head reveal">
+        <div>
+          <div class="rk-eyebrow">Servicii</div>
+          <h2>Tratamente pentru <em>recuperare</em></h2>
+        </div>
+        <div class="rk-head-right">Alege serviciul potrivit pentru problema ta. Începem cu evaluare, stabilim obiective clare și urmărim progresul.</div>
+      </div>
+      <div class="s3 reveal" data-services-section>
+        <div class="s3-bg"></div>
+        <div class="s3-content">
+          <div class="s3-left">
+            <div>
+              <div class="s3-num" data-service-num>1</div>
+              <div class="s3-visual"><img data-service-image src="img/service-1.jpg" alt="Kinetoterapie ortopedică"></div>
+              <h3><span data-service-name>Kinetoterapie</span><br><em data-service-italic>Ortopedică</em></h3>
+            </div>
+            <div>
+              <p data-service-copy>Recuperare post-operator, fracturi, entorse, luxații. Evaluare biomecanică completă, plan construit pe obiective măsurabile, ședințe 1-on-1 și ajustări săptămânale.</p>
+              <div class="s3-pills">
+                <span data-service-tag>Genunchi · Șold · Umăr</span>
+                <span data-service-stat>~12 ședințe medii</span>
+              </div>
+              <a class="s3-cta" data-service-link href="kinetoterapie-ortopedica.html">Vezi detalii <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="s3-right">
+            <button type="button" class="s3-tab is-active" data-service="0"><span class="t">Ortopedică</span><span class="n">1</span></button>
+            <button type="button" class="s3-tab" data-service="1"><span class="t">Neurologică</span><span class="n">2</span></button>
+            <button type="button" class="s3-tab" data-service="2"><span class="t">Post-Traumatică</span><span class="n">3</span></button>
+            <button type="button" class="s3-tab" data-service="3"><span class="t">Pediatrică</span><span class="n">4</span></button>
+            <button type="button" class="s3-tab" data-service="4"><span class="t">Sportivă</span><span class="n">5</span></button>
+            <button type="button" class="s3-tab" data-service="5"><span class="t">Durerii Cronice</span><span class="n">6</span></button>
+          </div>
+        </div>
+        <div class="s3-mobile-pager">
+          <button type="button" data-service-prev>← Anterior</button>
+          <span data-service-pager>1 / 6</span>
+          <button type="button" data-service-next>Următorul →</button>
+        </div>
+        <div class="s3-nav">
+          <button type="button" data-service-prev aria-label="Anterior">‹</button>
+          <button type="button" data-service-next aria-label="Următorul">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="booking" id="programare">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Programare Online</span>
+        <h2>Alege ziua și ora — în 3 pași simpli</h2>
+        <p>Vezi disponibilitatea reală a echipei. Fără apeluri, fără timpi de așteptare.</p>
+      </div>
+      <div class="booking-card reveal">
+        <div class="booking-steps">
+          <!-- Step 1 -->
+          <div class="bk-step">
+            <div class="bk-step-num">1</div>
+            <div class="bk-step-content">
+              <div class="bk-step-label">Alege serviciul</div>
+              <div class="service-pills" id="bk-services">
+                <button type="button" class="service-pill active" data-service="ortopedica">Kineto ortopedică</button>
+                <button type="button" class="service-pill" data-service="neurologica">Kineto neurologică</button>
+                <button type="button" class="service-pill" data-service="post-traumatica">Post-traumatică</button>
+                <button type="button" class="service-pill" data-service="pediatrica">Pediatrică</button>
+                <button type="button" class="service-pill" data-service="sportiva">Sportivă</button>
+                <button type="button" class="service-pill" data-service="durere">Durere cronică</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bk-step">
+            <div class="bk-step-num">2</div>
+            <div class="bk-step-content">
+              <div class="bk-step-label">Alege ziua și ora</div>
+              <div class="booking-grid">
+                <div class="calendar">
+                  <div class="cal-header">
+                    <button type="button" class="cal-nav" id="cal-prev" aria-label="Luna anterioară">‹</button>
+                    <span class="cal-month" id="cal-month">—</span>
+                    <button type="button" class="cal-nav" id="cal-next" aria-label="Luna următoare">›</button>
+                  </div>
+                  <div class="cal-weekdays">
+                    <span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span>
+                  </div>
+                  <div class="cal-grid" id="cal-grid"></div>
+                </div>
+                <div class="slots-panel">
+                  <div class="slots-title">
+                    <i class="fa-regular fa-clock"></i>
+                    <span id="slots-title">Selectează o zi</span>
+                  </div>
+                  <div class="slots-grid" id="slots-grid">
+                    <span class="slots-empty">Alege o zi din calendar pentru a vedea sloturile disponibile</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bk-step">
+            <div class="bk-step-num">3</div>
+            <div class="bk-step-content">
+              <div class="bk-step-label">Confirmă rezervarea</div>
+              <div class="booking-summary">
+                <div class="summary-item">
+                  <span class="summary-key">Serviciu</span>
+                  <span class="summary-val" id="sum-service">Kineto ortopedică</span>
+                </div>
+                <div class="summary-item">
+                  <span class="summary-key">Data</span>
+                  <span class="summary-val" id="sum-date">—</span>
+                </div>
+                <div class="summary-item">
+                  <span class="summary-key">Ora</span>
+                  <span class="summary-val" id="sum-time">—</span>
+                </div>
+                <button type="button" class="booking-confirm" id="booking-confirm">
+                  <i class="fa-solid fa-calendar-check"></i> Alege programare
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORIES -->
+  <section class="stories">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Povești reale</span>
+        <h2 style="color: var(--paper);">Pacienți care au revenit la viața normală</h2>
+      </div>
+      <div class="stories-grid">
+        <div class="story-card reveal">
+          <span class="story-tag">Recuperare post-operator</span>
+          <p>"După o operație la genunchi, echipa m-a ajutat să revin la sport în 3 luni. Sesiuni 1-on-1, foarte profesioniste."</p>
+          <div class="story-meta">
+            <span class="story-author">Mihai D.</span>
+            <span class="story-outcome">Revenit la fotbal · 12 sesiuni</span>
+          </div>
+        </div>
+        <div class="story-card reveal delay-1">
+          <span class="story-tag">Hernie de disc</span>
+          <p>"Hernie de disc de 2 ani, durerea m-a chinuit zilnic. După un program personalizat, durerea a dispărut aproape complet."</p>
+          <div class="story-meta">
+            <span class="story-author">Cristina P.</span>
+            <span class="story-outcome">Fără durere · 16 sesiuni</span>
+          </div>
+        </div>
+        <div class="story-card reveal delay-2">
+          <span class="story-tag">Pediatrie</span>
+          <p>"Băiatul meu de 5 ani avea probleme posturale. Programul pediatric e jucăuș, dar serios. Diferența se vede în câteva luni."</p>
+          <div class="story-meta">
+            <span class="story-author">Andreea M.</span>
+            <span class="story-outcome">Postură corectă · 8 sesiuni</span>
+          </div>
+        </div>
+      </div>
+      <div class="stories-rating reveal">
+        <span class="rating-stars">★★★★★</span>
+        <span class="rating-score">4.9</span>
+        <span class="rating-label">din 5 · recenzii Google verificate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="rk-section" id="echipa">
+    <div class="rk-inner">
+      <div class="rk-head reveal">
+        <div>
+          <div class="rk-eyebrow">Echipa</div>
+          <h2>Trei specialiști, <em>aceeași grijă</em></h2>
+        </div>
+        <div class="rk-head-right">Echipă specializată în kinetoterapie, masaj terapeutic și fitness terapeutic. Oferim și terapii personalizate la domiciliu — recuperezi fără să te deplasezi.</div>
+      </div>
+      <div class="t2-grid reveal">
+        <article class="t2-cell">
+          <h3>Andrei<span class="last">Popescu</span></h3>
+          <div class="role">Kinetoterapeut Principal</div>
+          <div class="photo"><img src="img/team-1.jpg" alt="Andrei Popescu"></div>
+          <div class="bio">„Recuperarea pornește de la încrederea că poți să te miști din nou.”</div>
+          <div class="tags"><span>Ortopedie</span><span>Post-operator</span><span>Sport</span></div>
+          <div class="t2-foot"><span>320+ cazuri</span><a href="#programare">Programează →</a></div>
+        </article>
+        <article class="t2-cell">
+          <h3>Maria<span class="last">Ionescu</span></h3>
+          <div class="role">Kinetoterapeut Neurologie</div>
+          <div class="photo"><img src="img/team-2.jpg" alt="Maria Ionescu"></div>
+          <div class="bio">„Fiecare pas mic înseamnă mult. Lucrăm cu răbdare și măsurăm progresul.”</div>
+          <div class="tags"><span>Post-AVC</span><span>Parkinson</span><span>Echilibru</span></div>
+          <div class="t2-foot"><span>180+ cazuri</span><a href="#programare">Programează →</a></div>
+        </article>
+        <article class="t2-cell">
+          <h3>Alexandru<span class="last">Marin</span></h3>
+          <div class="role">Kinetoterapeut Pediatrie</div>
+          <div class="photo"><img src="img/team-3.jpg" alt="Alexandru Marin"></div>
+          <div class="bio">„Cu copiii lucrezi cu răbdare. Faci kineto să pară joc și funcționează.”</div>
+          <div class="tags"><span>Pediatrie</span><span>Scolioze</span><span>Dezvoltare</span></div>
+          <div class="t2-foot"><span>240+ cazuri</span><a href="#programare">Programează →</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING TEASER -->
+  <section class="pricing-teaser">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Tarife</span>
+        <h2>Planul potrivit</h2>
+        <p>Începem cu o evaluare, apoi alegi împreună cu terapeutul varianta care are sens pentru recuperarea ta.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card reveal">
+          <h4>Evaluare inițială</h4>
+          <div class="price-amount">150 lei</div>
+          <p class="price-desc">Anamneză + evaluare biomecanică + plan personalizat. ~60 min.</p>
+          <ul class="price-features">
+            <li>Evaluare completă</li>
+            <li>Plan individualizat</li>
+            <li>Recomandări exerciții acasă</li>
+          </ul>
+        </div>
+        <div class="price-card featured reveal delay-1">
+          <h4>Pachet 10 ședințe</h4>
+          <div class="price-amount">1.000 lei <span>(100 lei/ședință)</span></div>
+          <p class="price-desc">Cea mai aleasă variantă. Plătești anticipat și economisești 200 lei.</p>
+          <ul class="price-features">
+            <li>Valabilitate 3 luni</li>
+            <li>Reprogramare gratuită</li>
+            <li>Re-evaluare inclusă la final</li>
+          </ul>
+        </div>
+        <div class="price-card reveal delay-2">
+          <h4>Ședință individuală</h4>
+          <div class="price-amount">120 lei</div>
+          <p class="price-desc">Sesiune 1-on-1 cu kinetoterapeut. Tehnici manuale + exerciții. 45-50 min.</p>
+          <ul class="price-features">
+            <li>Atenție 100% pentru tine</li>
+            <li>Plan ajustat la fiecare ședință</li>
+            <li>Plată după ședință</li>
+          </ul>
+        </div>
+      </div>
+      <p style="text-align: center; margin-top: var(--space-6);">
+        <a href="tarife.html" class="btn btn-ghost">Vezi toate tarifele <i class="fa-solid fa-arrow-right"></i></a>
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Întrebări frecvente</span>
+        <h2>Tot ce vrei să știi înainte să începi</h2>
+      </div>
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q">Am nevoie de bilet de trimitere de la medic?</button>
+          <div class="faq-a">
+            <p>Poți programa direct o evaluare inițială. Dacă ai recomandări medicale (RMN, radiografii, bilete), te rugăm să le aduci pentru un plan mai precis.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Cât durează o ședință?</button>
+          <div class="faq-a">
+            <p>Evaluarea inițială durează aproximativ 60 de minute. Ședințele individuale durează 45-50 de minute, suficient pentru o sesiune completă fără să te grăbim.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Câte ședințe sunt necesare pentru recuperare?</button>
+          <div class="faq-a">
+            <p>Depinde de severitatea afecțiunii și de obiectivele tale. În medie, recuperarea unei accidentări medii cere 8-12 ședințe; cazuri cronice sau post-operator pot avea nevoie de 15-20+ ședințe. La prima evaluare îți vom da o estimare realistă.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Pot veni pentru prevenție sau postură?</button>
+          <div class="faq-a">
+            <p>Da. Multe persoane vin pentru screening biomecanic, prevenție de accidentări, corectarea posturii sau optimizarea performanței sportive.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Lucrați cu sportivi profesioniști?</button>
+          <div class="faq-a">
+            <p>Da. Avem programe specializate de recuperare sportivă cu protocoale return-to-play care reduc cu peste 70% riscul de recidivă. Lucrăm cu sportivi de la amatori la profesioniști.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Pot beneficia de servicii la domiciliu?</button>
+          <div class="faq-a">
+            <p>Da, oferim ședințe la domiciliu pentru pacienții cu mobilitate redusă. Costul include timpul de transport. Sună-ne pentru a verifica disponibilitatea în zona ta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="container container-narrow">
+      <div class="reveal">
+        <span class="eyebrow" style="color: var(--accent);">Următorul pas</span>
+        <h2>Primul pas e cel mai greu — restul îl facem împreună</h2>
+        <p>Programează o evaluare inițială. Vorbim despre ce te doare, ce-ți dorești, și construim un plan care funcționează.</p>
+        <div class="final-cta-actions">
+          <a href="#programare" class="btn btn-primary btn-lg">Programează online</a>
+          <a href="tel:0763988801" class="btn btn-ghost-light btn-lg"><i class="fa-solid fa-phone"></i> 0763 988 801</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header left reveal">
+        <span class="eyebrow">Contact</span>
+        <h2>Te așteptăm la cabinet</h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-info reveal">
+          <ul class="contact-list">
+            <li><i class="fa-solid fa-location-dot"></i> Str. Porțile de Fier 4, Cluj-Napoca</li>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:0763988801">0763 988 801</a></li>
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@xkinetic.ro">contact@xkinetic.ro</a></li>
+            <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/0763988801" target="_blank" rel="noopener">Scrie-ne pe WhatsApp</a></li>
+          </ul>
+          <div class="contact-hours">
+            <h4>Program de lucru</h4>
+            <dl>
+              <dt>Luni – Vineri</dt><dd>9:00 – 19:00</dd>
+              <dt>Sâmbătă</dt><dd>Doar cu programare</dd>
+              <dt>Duminică</dt><dd>Închis</dd>
+            </dl>
+          </div>
+        </div>
+        <div class="contact-map reveal delay-1">
+          <iframe src="https://www.google.com/maps?q=Str.%20Por%C8%9Bile%20de%20Fier%204%2C%20Cluj-Napoca&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Hartă locație"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="img/brand-logo.png" alt="Logo xKinetic" class="footer-logo">
+          <p>Cabinet de Kinetoterapie & Recuperare Medicală în Cluj-Napoca. Sesiuni 1-on-1, planuri personalizate, programări online cu calendar real.</p>
+          <div class="footer-social">
+            <a href="" aria-label="Facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Servicii</h5>
+          <a href="kinetoterapie-ortopedica.html">Kineto Ortopedică</a>
+          <a href="kinetoterapie-neurologica.html">Kineto Neurologică</a>
+          <a href="recuperare-post-traumatica.html">Post-Traumatică</a>
+          <a href="kinetoterapie-pediatrica.html">Pediatrică</a>
+          <a href="recuperare-sportiva.html">Sportivă</a>
+          <a href="kinetoterapie-durere-cronica.html">Durere Cronică</a>
+        </div>
+        <div class="footer-col">
+          <h5>Despre</h5>
+          <a href="#despre">Cabinetul</a>
+          <a href="#echipa">Echipa</a>
+          <a href="#tratam">Ce tratăm</a>
+          <a href="#procesul">Procesul</a>
+          <a href="tarife.html">Tarife</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <a href="tel:0763988801">0763 988 801</a>
+          <a href="mailto:contact@xkinetic.ro">contact@xkinetic.ro</a>
+          <a href="#contact">Str. Porțile de Fier 4, Cluj-Napoca</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 xKinetic. Toate drepturile rezervate.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp FAB -->
+  <a href="https://wa.me/0763988801" target="_blank" rel="noopener" class="wa-fab" aria-label="Contactează-ne pe WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js?v=3.0.0"></script>
+</body>
+</html>
