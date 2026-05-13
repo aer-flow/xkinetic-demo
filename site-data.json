@@ -1,7 +1,7 @@
 {
   "brand_tagline": "Cabinet de Kinetoterapie & Recuperare Medicală",
   "city": "Cluj-Napoca",
-  "site_url": "https://xkinetic-demo.vercel.app/",
+  "site_url": "https://xkinetic.vercel.app/",
   "existing_website": "",
   "has_existing_website": "nu",
   "phone_display": "0763 988 801",
@@ -19,5 +19,5 @@
   "phone_link": "0763988801",
   "whatsapp_number": "0763988801",
   "map_embed_url": "https://www.google.com/maps?q=Str.%20Por%C8%9Bile%20de%20Fier%204%2C%20Cluj-Napoca&output=embed",
-  "og_image_url": "https://xkinetic-demo.vercel.app/img/brand-preview.png"
+  "og_image_url": "https://xkinetic.vercel.app/img/brand-preview.png"
 }
